@@ -73,19 +73,19 @@ const tools = [
   {
     name: 'Subtitle Translator',
     icon: '🌐',
-    description: 'Blazing-fast batch subtitle translation for SRT/ASS/VTT/LRC — 70+ languages, AI-powered 批量字幕翻译',
+    description: 'Blazing-fast batch subtitle translation for SRT/ASS/VTT/LRC — 70+ languages, AI-powered.',
     url: 'https://subtitle-translator.lovec.at/',
     tags: ['Translation', 'Subtitles', 'AI-Powered']
   },
   {
-    name: 'URL 缩短管理',
+    name: 'URL Shortener',
     icon: '🔗',
     description: 'URL shortener management — create, track and manage short links.',
     url: 'https://url.lovec.at/',
     tags: ['URL Shortener', 'Management']
   },
   {
-    name: 'IP 工具箱',
+    name: 'IP Toolkit',
     icon: '🌍',
     description: 'Comprehensive IP toolkit — check your IP address, geolocation, DNS, WebRTC leak and more.',
     url: 'https://ipcheck.ing/',
