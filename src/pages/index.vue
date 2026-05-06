@@ -1,7 +1,7 @@
 <template>
   <v-container class="fill-height">
     <v-row justify="center" align="center">
-      <v-col cols="12" md="10" lg="8">
+        <v-col cols="12" md="11" lg="10">
         <!-- Header -->
         <div class="text-center mb-12">
           <h1 class="text-h2 font-weight-bold mb-4">
@@ -28,6 +28,7 @@
               :key="item.name"
               cols="12"
               sm="6"
+              md="4"
             >
               <v-card
                 :href="item.url"
@@ -131,6 +132,13 @@ const categories = [
         description: 'DevSecOps platform — source code management, CI/CD, and project planning in one place.',
         url: 'https://gitlab.com/',
         tags: ['Git', 'DevOps']
+      },
+      {
+        name: 'Multica',
+        icon: '🤖',
+        description: 'The open-source managed agents platform. Turn coding agents into real teammates — assign tasks, track progress, compound skills.',
+        url: 'https://multica.ai/',
+        tags: ['AI Agents', 'Open Source']
       }
     ]
   },
