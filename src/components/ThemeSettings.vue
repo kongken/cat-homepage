@@ -11,12 +11,12 @@
 
     <v-card min-width="260" class="pa-4">
       <v-card-title class="text-subtitle-1 pa-0 mb-3">
-        主题设置
+        Theme Settings
       </v-card-title>
 
       <!-- Dark mode toggle -->
       <div class="d-flex align-center justify-space-between mb-4">
-        <span class="text-body-2">深色模式</span>
+        <span class="text-body-2">Dark Mode</span>
         <v-switch
           :model-value="isDark"
           hide-details
@@ -27,7 +27,7 @@
       </div>
 
       <!-- Color theme picker -->
-      <div class="text-body-2 mb-2">主题颜色</div>
+      <div class="text-body-2 mb-2">Theme Color</div>
       <div class="d-flex flex-wrap ga-2">
         <v-btn
           v-for="color in colorThemes"

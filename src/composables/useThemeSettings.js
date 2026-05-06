@@ -5,12 +5,12 @@ const STORAGE_KEY_DARK = 'cat-homepage-dark-mode'
 const STORAGE_KEY_COLOR = 'cat-homepage-color-theme'
 
 export const colorThemes = [
-  { name: 'indigo', label: '靛蓝', light: '#6366f1', dark: '#818cf8' },
-  { name: 'rose', label: '玫红', light: '#e11d48', dark: '#fb7185' },
-  { name: 'emerald', label: '翠绿', light: '#059669', dark: '#34d399' },
-  { name: 'amber', label: '琥珀', light: '#d97706', dark: '#fbbf24' },
-  { name: 'cyan', label: '青蓝', light: '#0891b2', dark: '#22d3ee' },
-  { name: 'violet', label: '紫罗兰', light: '#7c3aed', dark: '#a78bfa' },
+  { name: 'indigo', label: 'Indigo', light: '#6366f1', dark: '#818cf8' },
+  { name: 'rose', label: 'Rose', light: '#e11d48', dark: '#fb7185' },
+  { name: 'emerald', label: 'Emerald', light: '#059669', dark: '#34d399' },
+  { name: 'amber', label: 'Amber', light: '#d97706', dark: '#fbbf24' },
+  { name: 'cyan', label: 'Cyan', light: '#0891b2', dark: '#22d3ee' },
+  { name: 'violet', label: 'Violet', light: '#7c3aed', dark: '#a78bfa' },
 ]
 
 const isDark = ref(loadDarkPreference())
