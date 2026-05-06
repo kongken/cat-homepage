@@ -76,6 +76,20 @@ const tools = [
     description: 'Blazing-fast batch subtitle translation for SRT/ASS/VTT/LRC — 70+ languages, AI-powered 批量字幕翻译',
     url: 'https://subtitle-translator.lovec.at/',
     tags: ['Translation', 'Subtitles', 'AI-Powered']
+  },
+  {
+    name: 'URL 缩短管理',
+    icon: '🔗',
+    description: 'URL shortener management — create, track and manage short links.',
+    url: 'https://url.lovec.at/',
+    tags: ['URL Shortener', 'Management']
+  },
+  {
+    name: 'IP 工具箱',
+    icon: '🌍',
+    description: 'Comprehensive IP toolkit — check your IP address, geolocation, DNS, WebRTC leak and more.',
+    url: 'https://ipcheck.ing/',
+    tags: ['Network', 'IP Tools', 'Diagnostics']
   }
 ]
 </script>
