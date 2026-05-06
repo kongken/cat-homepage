@@ -143,6 +143,41 @@ const categories = [
     ]
   },
   {
+    title: 'AI',
+    icon: '🧠',
+    description: 'AI assistants and large language models',
+    items: [
+      {
+        name: 'Perplexity',
+        icon: '🔍',
+        description: 'AI-powered answer engine — get instant, source-cited answers to any question.',
+        url: 'https://www.perplexity.ai/',
+        tags: ['Search', 'AI']
+      },
+      {
+        name: 'ChatGPT',
+        icon: '💬',
+        description: 'OpenAI\'s conversational AI assistant — chat, write, code, and create with GPT.',
+        url: 'https://chat.openai.com/',
+        tags: ['Chat', 'AI']
+      },
+      {
+        name: 'Claude',
+        icon: '🟠',
+        description: 'Anthropic\'s AI assistant — thoughtful, nuanced conversations with a focus on safety and helpfulness.',
+        url: 'https://claude.ai/',
+        tags: ['Chat', 'AI']
+      },
+      {
+        name: 'Gemini',
+        icon: '✨',
+        description: 'Google\'s multimodal AI — reason across text, images, code and more.',
+        url: 'https://gemini.google.com/',
+        tags: ['Multimodal', 'AI']
+      }
+    ]
+  },
+  {
     title: 'Finance',
     icon: '💰',
     description: 'Financial tools and record keeping',
