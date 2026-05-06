@@ -3,11 +3,11 @@
     <v-row justify="center" align="center">
         <v-col cols="12" md="11" lg="10">
         <!-- Header -->
-        <div class="text-center mb-12">
-          <h1 class="text-h2 font-weight-bold mb-4">
+        <div class="text-center mb-6">
+          <h1 class="text-h3 font-weight-bold mb-2">
             🐱 LoveCat Tools
           </h1>
-          <p class="text-h6 text-medium-emphasis">
+          <p class="text-body-1 text-medium-emphasis">
             Collection of handy online tools for developers, with great UX
           </p>
         </div>
@@ -16,13 +16,13 @@
         <div
           v-for="(category, idx) in categories"
           :key="category.title"
-          :class="idx > 0 ? 'mt-12' : ''"
+          :class="idx > 0 ? 'mt-6' : ''"
         >
-          <div class="mb-4">
-            <h2 class="text-h4 font-weight-bold mb-2">{{ category.icon }} {{ category.title }}</h2>
-            <p class="text-body-1 text-medium-emphasis">{{ category.description }}</p>
+          <div class="mb-2">
+            <h2 class="text-h5 font-weight-bold mb-1">{{ category.icon }} {{ category.title }}</h2>
+            <p class="text-body-2 text-medium-emphasis">{{ category.description }}</p>
           </div>
-          <v-row>
+          <v-row dense>
             <v-col
               v-for="item in category.items"
               :key="item.name"
@@ -38,24 +38,24 @@
                 elevation="2"
                 hover
               >
-                <v-card-text class="pa-6">
-                  <div class="d-flex align-center mb-3">
-                    <span class="text-h4 mr-3">{{ item.icon }}</span>
+                <v-card-text class="pa-4">
+                  <div class="d-flex align-center mb-2">
+                    <span class="text-h5 mr-2">{{ item.icon }}</span>
                     <div>
-                      <h2 class="text-h5 font-weight-bold">{{ item.name }}</h2>
-                      <p v-if="item.subtitle" class="text-body-2 text-medium-emphasis mt-1 mb-0">
+                      <h2 class="text-h6 font-weight-bold">{{ item.name }}</h2>
+                      <p v-if="item.subtitle" class="text-caption text-medium-emphasis mt-0 mb-0">
                         {{ item.subtitle }}
                       </p>
                     </div>
                   </div>
-                  <p class="text-body-1 text-medium-emphasis mb-2">
+                  <p class="text-body-2 text-medium-emphasis mb-1">
                     {{ item.description }}
                   </p>
                   <v-chip
                     v-for="tag in item.tags"
                     :key="tag"
-                    size="small"
-                    class="mr-2 mt-2"
+                    size="x-small"
+                    class="mr-1 mt-1"
                     variant="tonal"
                   >
                     {{ tag }}
@@ -67,7 +67,7 @@
         </div>
 
         <!-- Footer -->
-        <div class="text-center mt-12">
+        <div class="text-center mt-8">
           <p class="text-body-2 text-medium-emphasis">
             Made with ❤️ by LoveCat
           </p>
@@ -105,13 +105,6 @@ const categories = [
         url: 'https://ipcheck.ing/',
         tags: ['Network', 'IP Tools', 'Diagnostics']
       },
-      {
-        name: 'Subtitle Translator',
-        icon: '🌐',
-        description: 'Blazing-fast batch subtitle translation for SRT/ASS/VTT/LRC — 70+ languages, AI-powered.',
-        url: 'https://subtitle-translator.lovec.at/',
-        tags: ['Translation', 'Subtitles', 'AI-Powered']
-      }
     ]
   },
   {
@@ -191,6 +184,20 @@ const categories = [
         tags: ['Finance', 'Organization']
       }
     ]
+  },
+  {
+    title: 'Etc',
+    icon: '📦',
+    description: 'Other useful tools and utilities',
+    items: [
+      {
+        name: 'Subtitle Translator',
+        icon: '🌐',
+        description: 'Blazing-fast batch subtitle translation for SRT/ASS/VTT/LRC — 70+ languages, AI-powered.',
+        url: 'https://subtitle-translator.lovec.at/',
+        tags: ['Translation', 'Subtitles', 'AI-Powered']
+      }
+    ]
   }
 ]
 </script>
@@ -202,6 +209,6 @@ const categories = [
 }
 
 .tool-card:hover {
-  transform: translateY(-4px);
+  transform: translateY(-2px);
 }
 </style>
