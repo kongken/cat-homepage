@@ -171,6 +171,27 @@ const categories = [
     ]
   },
   {
+    title: 'AI Tools',
+    icon: '🧰',
+    description: 'Building blocks and platforms for AI agents and applications',
+    items: [
+      {
+        name: 'Mem0',
+        icon: '🧩',
+        description: 'Memory layer for AI agents and assistants — give your apps long-term, personalized memory across sessions.',
+        url: 'https://mem0.ai/',
+        tags: ['Memory', 'AI Agents']
+      },
+      {
+        name: 'Skills Hub',
+        icon: '🪄',
+        description: 'Discover AI Skills — explore modular capabilities to enhance your AI\'s functionality.',
+        url: 'https://skills-hub.cc/',
+        tags: ['AI Skills', 'Discovery']
+      }
+    ]
+  },
+  {
     title: 'Finance',
     icon: '💰',
     description: 'Financial tools and record keeping',
